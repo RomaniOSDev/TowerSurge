@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CF05672EB93B7C002DBBBA /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05462EB93B7C002DBBBA /* AchievementsView.swift */; };
+		74CF05682EB93B7C002DBBBA /* BuildMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05482EB93B7C002DBBBA /* BuildMatchView.swift */; };
+		74CF05692EB93B7C002DBBBA /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05492EB93B7C002DBBBA /* GamesView.swift */; };
+		74CF056A2EB93B7C002DBBBA /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF054A2EB93B7C002DBBBA /* QuizQuestion.swift */; };
+		74CF056B2EB93B7C002DBBBA /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF054B2EB93B7C002DBBBA /* QuizView.swift */; };
+		74CF056C2EB93B7C002DBBBA /* SimpleFactview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF054C2EB93B7C002DBBBA /* SimpleFactview.swift */; };
+		74CF056D2EB93B7C002DBBBA /* TowerFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF054D2EB93B7C002DBBBA /* TowerFactsView.swift */; };
+		74CF056E2EB93B7C002DBBBA /* TowerQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF054E2EB93B7C002DBBBA /* TowerQuizView.swift */; };
+		74CF056F2EB93B7C002DBBBA /* CupComplitedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05502EB93B7C002DBBBA /* CupComplitedView.swift */; };
+		74CF05702EB93B7C002DBBBA /* QuestionCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05512EB93B7C002DBBBA /* QuestionCountView.swift */; };
+		74CF05712EB93B7C002DBBBA /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05522EB93B7C002DBBBA /* TimeView.swift */; };
+		74CF05722EB93B7C002DBBBA /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05542EB93B7C002DBBBA /* OnBoardingView.swift */; };
+		74CF05732EB93B7C002DBBBA /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05562EB93B7C002DBBBA /* RulesView.swift */; };
+		74CF05742EB93B7C002DBBBA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05572EB93B7C002DBBBA /* SettingsView.swift */; };
+		74CF05752EB93B7C002DBBBA /* Startview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05592EB93B7C002DBBBA /* Startview.swift */; };
+		74CF05762EB93B7C002DBBBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF055B2EB93B7C002DBBBA /* ContentView.swift */; };
+		74CF05772EB93B7C002DBBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF055D2EB93B7C002DBBBA /* AppDelegate.swift */; };
+		74CF05782EB93B7C002DBBBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05642EB93B7C002DBBBA /* SceneDelegate.swift */; };
+		74CF05792EB93B7C002DBBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF05652EB93B7C002DBBBA /* ViewController.swift */; };
+		74CF057A2EB93B7C002DBBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CF055E2EB93B7C002DBBBA /* Assets.xcassets */; };
+		74CF057C2EB93B7C002DBBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CF05612EB93B7C002DBBBA /* LaunchScreen.storyboard */; };
+		74CF057D2EB93B7C002DBBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CF05632EB93B7C002DBBBA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74CF05462EB93B7C002DBBBA /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74CF05482EB93B7C002DBBBA /* BuildMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMatchView.swift; sourceTree = "<group>"; };
+		74CF05492EB93B7C002DBBBA /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		74CF054A2EB93B7C002DBBBA /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		74CF054B2EB93B7C002DBBBA /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		74CF054C2EB93B7C002DBBBA /* SimpleFactview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFactview.swift; sourceTree = "<group>"; };
+		74CF054D2EB93B7C002DBBBA /* TowerFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerFactsView.swift; sourceTree = "<group>"; };
+		74CF054E2EB93B7C002DBBBA /* TowerQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerQuizView.swift; sourceTree = "<group>"; };
+		74CF05502EB93B7C002DBBBA /* CupComplitedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupComplitedView.swift; sourceTree = "<group>"; };
+		74CF05512EB93B7C002DBBBA /* QuestionCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCountView.swift; sourceTree = "<group>"; };
+		74CF05522EB93B7C002DBBBA /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		74CF05542EB93B7C002DBBBA /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		74CF05562EB93B7C002DBBBA /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		74CF05572EB93B7C002DBBBA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74CF05592EB93B7C002DBBBA /* Startview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startview.swift; sourceTree = "<group>"; };
+		74CF055B2EB93B7C002DBBBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74CF055D2EB93B7C002DBBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74CF055E2EB93B7C002DBBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CF055F2EB93B7C002DBBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CF05602EB93B7C002DBBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74CF05622EB93B7C002DBBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CF05642EB93B7C002DBBBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74CF05652EB93B7C002DBBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74F81FB22EB5074800617FA1 /* TowerSurge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerSurge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFCCE0BA79F3D575CA02836 /* Pods-TowerSurge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowerSurge.release.xcconfig"; path = "Target Support Files/Pods-TowerSurge/Pods-TowerSurge.release.xcconfig"; sourceTree = "<group>"; };
+		ACE3E2C812F135A4673FE072 /* Pods-TowerSurge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowerSurge.debug.xcconfig"; path = "Target Support Files/Pods-TowerSurge/Pods-TowerSurge.debug.xcconfig"; sourceTree = "<group>"; };
+		E33B99D9E21BC6495F2F9579 /* Pods_TowerSurge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TowerSurge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F81FAF2EB5074800617FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CF05472EB93B7C002DBBBA /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05462EB93B7C002DBBBA /* AchievementsView.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
+		74CF054F2EB93B7C002DBBBA /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05482EB93B7C002DBBBA /* BuildMatchView.swift */,
+				74CF05492EB93B7C002DBBBA /* GamesView.swift */,
+				74CF054A2EB93B7C002DBBBA /* QuizQuestion.swift */,
+				74CF054B2EB93B7C002DBBBA /* QuizView.swift */,
+				74CF054C2EB93B7C002DBBBA /* SimpleFactview.swift */,
+				74CF054D2EB93B7C002DBBBA /* TowerFactsView.swift */,
+				74CF054E2EB93B7C002DBBBA /* TowerQuizView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		74CF05532EB93B7C002DBBBA /* HelpersView */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05502EB93B7C002DBBBA /* CupComplitedView.swift */,
+				74CF05512EB93B7C002DBBBA /* QuestionCountView.swift */,
+				74CF05522EB93B7C002DBBBA /* TimeView.swift */,
+			);
+			path = HelpersView;
+			sourceTree = "<group>";
+		};
+		74CF05552EB93B7C002DBBBA /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05542EB93B7C002DBBBA /* OnBoardingView.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
+		74CF05582EB93B7C002DBBBA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05562EB93B7C002DBBBA /* RulesView.swift */,
+				74CF05572EB93B7C002DBBBA /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74CF055A2EB93B7C002DBBBA /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05592EB93B7C002DBBBA /* Startview.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		74CF055C2EB93B7C002DBBBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74CF05472EB93B7C002DBBBA /* Achievements */,
+				74CF054F2EB93B7C002DBBBA /* Games */,
+				74CF05532EB93B7C002DBBBA /* HelpersView */,
+				74CF05552EB93B7C002DBBBA /* onboarding */,
+				74CF05582EB93B7C002DBBBA /* Settings */,
+				74CF055A2EB93B7C002DBBBA /* Start */,
+				74CF055B2EB93B7C002DBBBA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74CF05662EB93B7C002DBBBA /* TowerSurge */ = {
+			isa = PBXGroup;
+			children = (
+				74CF055C2EB93B7C002DBBBA /* Views */,
+				74CF055D2EB93B7C002DBBBA /* AppDelegate.swift */,
+				74CF055E2EB93B7C002DBBBA /* Assets.xcassets */,
+				74CF055F2EB93B7C002DBBBA /* Info.plist */,
+				74CF05612EB93B7C002DBBBA /* LaunchScreen.storyboard */,
+				74CF05632EB93B7C002DBBBA /* Main.storyboard */,
+				74CF05642EB93B7C002DBBBA /* SceneDelegate.swift */,
+				74CF05652EB93B7C002DBBBA /* ViewController.swift */,
+			);
+			path = TowerSurge;
+			sourceTree = "<group>";
+		};
+		74F81FA92EB5074800617FA1 = {
+			isa = PBXGroup;
+			children = (
+				74CF05662EB93B7C002DBBBA /* TowerSurge */,
+				74F81FB32EB5074800617FA1 /* Products */,
+				811C77DB63529EC38453E2C2 /* Pods */,
+				7644B033AE185EF01203FF40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F81FB32EB5074800617FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F81FB22EB5074800617FA1 /* TowerSurge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7644B033AE185EF01203FF40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33B99D9E21BC6495F2F9579 /* Pods_TowerSurge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		811C77DB63529EC38453E2C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE3E2C812F135A4673FE072 /* Pods-TowerSurge.debug.xcconfig */,
+				7FFCCE0BA79F3D575CA02836 /* Pods-TowerSurge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F81FB12EB5074800617FA1 /* TowerSurge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F81FC52EB5074900617FA1 /* Build configuration list for PBXNativeTarget "TowerSurge" */;
+			buildPhases = (
+				73413CF9EE2E96B9A908973E /* [CP] Check Pods Manifest.lock */,
+				74F81FAE2EB5074800617FA1 /* Sources */,
+				74F81FAF2EB5074800617FA1 /* Frameworks */,
+				74F81FB02EB5074800617FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerSurge;
+			productName = TowerSurge;
+			productReference = 74F81FB22EB5074800617FA1 /* TowerSurge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F81FAA2EB5074800617FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					74F81FB12EB5074800617FA1 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 74F81FAD2EB5074800617FA1 /* Build configuration list for PBXProject "TowerSurge" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F81FA92EB5074800617FA1;
+			productRefGroup = 74F81FB32EB5074800617FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F81FB12EB5074800617FA1 /* TowerSurge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F81FB02EB5074800617FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF057A2EB93B7C002DBBBA /* Assets.xcassets in Resources */,
+				74CF057C2EB93B7C002DBBBA /* LaunchScreen.storyboard in Resources */,
+				74CF057D2EB93B7C002DBBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73413CF9EE2E96B9A908973E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TowerSurge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F81FAE2EB5074800617FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CF05672EB93B7C002DBBBA /* AchievementsView.swift in Sources */,
+				74CF05682EB93B7C002DBBBA /* BuildMatchView.swift in Sources */,
+				74CF05692EB93B7C002DBBBA /* GamesView.swift in Sources */,
+				74CF056A2EB93B7C002DBBBA /* QuizQuestion.swift in Sources */,
+				74CF056B2EB93B7C002DBBBA /* QuizView.swift in Sources */,
+				74CF056C2EB93B7C002DBBBA /* SimpleFactview.swift in Sources */,
+				74CF056D2EB93B7C002DBBBA /* TowerFactsView.swift in Sources */,
+				74CF056E2EB93B7C002DBBBA /* TowerQuizView.swift in Sources */,
+				74CF056F2EB93B7C002DBBBA /* CupComplitedView.swift in Sources */,
+				74CF05702EB93B7C002DBBBA /* QuestionCountView.swift in Sources */,
+				74CF05712EB93B7C002DBBBA /* TimeView.swift in Sources */,
+				74CF05722EB93B7C002DBBBA /* OnBoardingView.swift in Sources */,
+				74CF05732EB93B7C002DBBBA /* RulesView.swift in Sources */,
+				74CF05742EB93B7C002DBBBA /* SettingsView.swift in Sources */,
+				74CF05752EB93B7C002DBBBA /* Startview.swift in Sources */,
+				74CF05762EB93B7C002DBBBA /* ContentView.swift in Sources */,
+				74CF05772EB93B7C002DBBBA /* AppDelegate.swift in Sources */,
+				74CF05782EB93B7C002DBBBA /* SceneDelegate.swift in Sources */,
+				74CF05792EB93B7C002DBBBA /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74CF05612EB93B7C002DBBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CF05602EB93B7C002DBBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74CF05632EB93B7C002DBBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CF05622EB93B7C002DBBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F81FC62EB5074900617FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE3E2C812F135A4673FE072 /* Pods-TowerSurge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TowerSurge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.TowerSurge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74F81FC72EB5074900617FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFCCE0BA79F3D575CA02836 /* Pods-TowerSurge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TowerSurge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.TowerSurge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74F81FC82EB5074900617FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F81FC92EB5074900617FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F81FAD2EB5074800617FA1 /* Build configuration list for PBXProject "TowerSurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F81FC82EB5074900617FA1 /* Debug */,
+				74F81FC92EB5074900617FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F81FC52EB5074900617FA1 /* Build configuration list for PBXNativeTarget "TowerSurge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F81FC62EB5074900617FA1 /* Debug */,
+				74F81FC72EB5074900617FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F81FAA2EB5074800617FA1 /* Project object */;
+}
