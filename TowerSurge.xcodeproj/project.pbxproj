@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7409EB7B2EC9BC1D00A2228E /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409EB762EC9BC1D00A2228E /* OneSignalService.swift */; };
+		7409EB7C2EC9BC1D00A2228E /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409EB752EC9BC1D00A2228E /* CheckLink.swift */; };
+		7409EB7D2EC9BC1D00A2228E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409EB792EC9BC1D00A2228E /* Extensions.swift */; };
+		7409EB7E2EC9BC1D00A2228E /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409EB772EC9BC1D00A2228E /* InternetViewController.swift */; };
+		7409EB7F2EC9BC1D00A2228E /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409EB782EC9BC1D00A2228E /* LoaderViewController.swift */; };
+		7409EB822EC9BC6300A2228E /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7409EB812EC9BC6300A2228E /* AppsFlyerLib */; };
+		7409EB852EC9BC7500A2228E /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7409EB842EC9BC7500A2228E /* OneSignalFramework */; };
 		74FD09852EBDF27C00707A9C /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD09642EBDF27C00707A9C /* AchievementsView.swift */; };
 		74FD09862EBDF27C00707A9C /* BuildMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD09662EBDF27C00707A9C /* BuildMatchView.swift */; };
 		74FD09872EBDF27C00707A9C /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD09672EBDF27C00707A9C /* GamesView.swift */; };
@@ -32,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7409EB752EC9BC1D00A2228E /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7409EB762EC9BC1D00A2228E /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
+		7409EB772EC9BC1D00A2228E /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7409EB782EC9BC1D00A2228E /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7409EB792EC9BC1D00A2228E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7409EB862EC9BC7F00A2228E /* TowerSurge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TowerSurge.entitlements; sourceTree = "<group>"; };
 		74F81FB22EB5074800617FA1 /* TowerSurge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerSurge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FD09642EBDF27C00707A9C /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		74FD09662EBDF27C00707A9C /* BuildMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMatchView.swift; sourceTree = "<group>"; };
@@ -66,12 +79,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7409EB852EC9BC7500A2228E /* OneSignalFramework in Frameworks */,
+				7409EB822EC9BC6300A2228E /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7409EB7A2EC9BC1D00A2228E /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7409EB752EC9BC1D00A2228E /* CheckLink.swift */,
+				7409EB762EC9BC1D00A2228E /* OneSignalService.swift */,
+				7409EB772EC9BC1D00A2228E /* InternetViewController.swift */,
+				7409EB782EC9BC1D00A2228E /* LoaderViewController.swift */,
+				7409EB792EC9BC1D00A2228E /* Extensions.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
 		74F81FA92EB5074800617FA1 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +184,7 @@
 				74FD09762EBDF27C00707A9C /* Settings */,
 				74FD09782EBDF27C00707A9C /* Start */,
 				74FD09792EBDF27C00707A9C /* ContentView.swift */,
+				7409EB7A2EC9BC1D00A2228E /* LoadingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +192,7 @@
 		74FD09842EBDF27C00707A9C /* TowerSurge */ = {
 			isa = PBXGroup;
 			children = (
+				7409EB862EC9BC7F00A2228E /* TowerSurge.entitlements */,
 				74FD097A2EBDF27C00707A9C /* Views */,
 				74FD097B2EBDF27C00707A9C /* AppDelegate.swift */,
 				74FD097C2EBDF27C00707A9C /* Assets.xcassets */,
@@ -238,6 +267,10 @@
 				Base,
 			);
 			mainGroup = 74F81FA92EB5074800617FA1;
+			packageReferences = (
+				7409EB802EC9BC6300A2228E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				7409EB832EC9BC7500A2228E /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
 			productRefGroup = 74F81FB32EB5074800617FA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,6 +336,11 @@
 				74FD098F2EBDF27C00707A9C /* TimeView.swift in Sources */,
 				74FD09902EBDF27C00707A9C /* OnBoardingView.swift in Sources */,
 				74FD09912EBDF27C00707A9C /* RulesView.swift in Sources */,
+				7409EB7B2EC9BC1D00A2228E /* OneSignalService.swift in Sources */,
+				7409EB7C2EC9BC1D00A2228E /* CheckLink.swift in Sources */,
+				7409EB7D2EC9BC1D00A2228E /* Extensions.swift in Sources */,
+				7409EB7E2EC9BC1D00A2228E /* InternetViewController.swift in Sources */,
+				7409EB7F2EC9BC1D00A2228E /* LoaderViewController.swift in Sources */,
 				74FD09922EBDF27C00707A9C /* SettingsView.swift in Sources */,
 				74FD09932EBDF27C00707A9C /* Startview.swift in Sources */,
 				74FD09942EBDF27C00707A9C /* ContentView.swift in Sources */,
@@ -340,8 +378,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TowerSurge/TowerSurge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TowerSurge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -354,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ped.t0w3rs83g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -377,8 +416,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TowerSurge/TowerSurge.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TowerSurge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -391,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ped.t0w3rs83g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -549,6 +589,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7409EB802EC9BC6300A2228E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+		7409EB832EC9BC7500A2228E /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.15;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7409EB812EC9BC6300A2228E /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7409EB802EC9BC6300A2228E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		7409EB842EC9BC7500A2228E /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7409EB832EC9BC7500A2228E /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74F81FAA2EB5074800617FA1 /* Project object */;
 }
